@@ -66,3 +66,4 @@ group :test do
 end
 
 gem "simple_form"
+gem "jbuilder"
