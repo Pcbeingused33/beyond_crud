@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Top rated restaurants (5 stars)</h1>
+  <% @restaurants.each do |restaurant| %>
+    <%= render restaurant %>
+    <p>
+      <%= link_to "Show this restaurant", restaurant %>
+    </p>
+  <% end %>
+</div>
+
+<h1>5 Stars Restaurants</h1>
+<%= render "restaurants/list", restaurants: @restaurants %>
+<%= link_to "Back to all restaurants", restaurants_path %>

@@ -67,3 +67,5 @@ end
 
 gem "simple_form"
 gem "jbuilder"
+
+gem "faker"
